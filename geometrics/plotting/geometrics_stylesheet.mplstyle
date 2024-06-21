@@ -1,0 +1,74 @@
+# style sheet to simplify plot formatting
+
+text.color : 'k'            # default text color is black
+
+# AXES
+axes.titlesize : 16         # default title size is 16
+axes.titlelocation: left    # title defaults to the left side of the figure
+axes.titleweight:  bold     # title defaults to bold fontweight
+
+axes.labelsize : 12         # default label size is 12
+axes.labelweight: bold      # default label is bolded
+
+axes.edgecolor : 'k'        # default axes color is black
+axes.labelcolor : 'k'       # default label color is black
+axes.linewidth : 2          # default line width of axes is 2
+
+axes.spines.top : True      # top axis line is on
+axes.spines.right : True    # right axis line is on
+axes.spines.bottom : True   # bottom axis line is on
+axes.spines.left : True     # left axis line is on
+axes.formatter.limits: -5, 6  # use scientific notation if log10 of the axis range is smaller than the first or larger than the second
+
+# GRID
+axes.grid : False           # default grid on axis is off
+grid.alpha : 0.7            # default grid opacity when turned on is 0.7
+grid.linestyle : --         # default grid line style is dashed
+grid.linewidth : 0.6        # default grid line width is 0.6
+
+# LINES
+axes.prop_cycle : cycler('color', [ '332288', '117733', '44AA99', '88CCEE', 'DDCC77', 'CC6677','AA4499', '882255'] ) # Paul Tol's colormap for colorblind friendly plotting
+
+lines.linewidth : 2         # default line width on plot is 2
+lines.markeredgewidth : 0.0 # no edge on a line plot
+
+# TICKS
+xtick.labelsize : 11        # default x-tick labels are size 11
+xtick.color : 'k'           # default x-tick color is black
+xtick.direction : in        # default direction of ticks are inwards
+ytick.labelsize : 11        # default y-tick labels are size 11
+ytick.color : 'k'           # default y-tick color is black
+ytick.direction : in        # default tick direction is inwards
+
+# FIGURE
+figure.titlesize: 18        # figure suptitle defaults to size 16
+figure.titleweight: bold    # figure title weight defaults to bold
+
+figure.constrained_layout.use: True         # default to using constrained_layout
+figure.constrained_layout.h_pad:  0.04167   # pad on left of figure
+figure.constrained_layout.w_pad:  0.04167   # pad on top of figure
+figure.constrained_layout.hspace: 0.06      # make spacing between the plots larger than default constrained_layout
+figure.constrained_layout.wspace: 0.06      # make spacing between the plots larger than default constrained_layout
+
+figure.figsize  : 12, 8     # default figure size is (12,8)
+figure.dpi : 200            # show figures at 200 dpi
+savefig.dpi : 400           # save figures at 400 dpi - NOTE: if you save pngs for publication you should use 1200 dpi
+
+# FONTS
+font.family:  sans-serif    # default font family is sans-serif
+font.style:   normal        # default style is normal
+font.variant: normal        # default variant is normal (not italic etc.)
+font.weight:  bold          # default weight is bold
+font.stretch: normal        # default stretch is normal
+font.size:    12            # default fontsize is 12
+font.sans-serif: Arial, DejaVu Sans, Bitstream Vera Sans, Computer Modern Sans Serif, Lucida Grande, Verdana, Geneva, Lucid, Helvetica, Avant Garde, sans-serif
+
+# LEGEND
+legend.loc: best            # defaults to auto placing legend
+legend.frameon: False       # defaults to no frame on legend
+legend.markerscale: 0.5     # half the size of the marker in the legend
+
+# PLOT SPECIFIC FORMATTING
+scatter.marker : o         # default scatter plot marker is a circle
+errorbar.capsize: 2         # length of end cap on error bars in pixels
+hist.bins: sqrt             # default histogram bins set by square root rule
