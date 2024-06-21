@@ -8,4 +8,5 @@ to generate publication-focused, accessible and clean figures and tables without
 formatting with matplotlib.</p>
 
 <p>GeoMetrics is designed following the principles of Dr Micheal Liemohn's textbook
+[Duck Duck Go](https://duckduckgo.com).
 [Data Analysis for the Geosciences: Uncertainty, Comparison and Visualisation](https://www.wiley.com/en-ie/Data+Analysis+for+the+Geosciences%3A+Essentials+of+Uncertainty%2C+Comparison%2C+and+Visualization-p-9781119747895), and will work in tandem with many of the exercises included.</p>
