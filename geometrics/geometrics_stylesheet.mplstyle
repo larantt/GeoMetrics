@@ -29,7 +29,7 @@ grid.linewidth : 0.6        # default grid line width is 0.6
 # LINES
 axes.prop_cycle : cycler('color', [ '332288', '117733', '44AA99', '88CCEE', 'DDCC77', 'CC6677','AA4499', '882255'] ) # Paul Tol's colormap for colorblind friendly plotting
 
-lines.linewidth : 2         # default line width on plot is 2
+lines.linewidth : 2         # default line width on plot is 2p
 lines.markeredgewidth : 0.0 # no edge on a line plot
 
 # TICKS

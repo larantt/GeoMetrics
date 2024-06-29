@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+geometrics/__init__.py
+geometrics/geometrics_stylesheet.mplstyle
+geometrics/plot_tools.py
+geometrics/stats_calcs.py
+geometrics/test_sheet.py
+geometrics.egg-info/PKG-INFO
+geometrics.egg-info/SOURCES.txt
+geometrics.egg-info/dependency_links.txt
+geometrics.egg-info/requires.txt
+geometrics.egg-info/top_level.txt
